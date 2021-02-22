@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+	<head>
+		<title>zaezjaem v haty</title>
+		<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+	</head>
+	<body>
+		<form action="#" method="get">
+			<div>
+				<p>имя</p>
+				<input placeholder="имя" tabindex="1" name="username" type="text" />
+			</div>
+						<div>
+				<p>пароль</p>
+				<input tabindex="2" placeholder="пароль" tabindex="2" name="userpass" type="password" />
+			</div>
+			<div>
+				<p>телефон</p>
+				<input tabindex="3" name="userphone" type="tel" />
+			</div>
+			<div>
+				<p>пол</p>
+				<div>
+					<input tabindex="4" type="radio" name="gender" value="male" />мужской
+				</div>
+								<div>
+					<input tabindex="4" type="radio" name="gender" value="male" />женский
+				</div>
+			</div>
+			<div>
+				<p>имущество</p>
+				<div>
+					<input tabindex="5" type="checkbox" name="bike" value="yes" />велик
+				</div>
+								<div>
+					<input tabindex="6" type="checkbox" name="car" value="yes" />машина
+				</div>
+								<div>
+					<input tabindex="7" disabled type="checkbox" name="house" value="yes" />дом
+				</div>
+				<div>
+					<p>дополнительная информация</p>
+					<textarea tabindex="8" name="text"></textarea>
+				</div>
+				<div>
+					<p>прикрепить фото</p>
+					<input tabindex="9" type="file" name="userfoto">
+				</div>
+			</div>
+			<div>
+				<p>любимый цвет</p>
+				<select tabindex="10" name="color">
+					<option value="red">карсный</option>
+					<option value="green">зеленый</option>
+					<option value="black">чёрный</option>
+				</select>
+			</div>
+			<div>
+				<p>дейстыия</p>
+				<button tabindex="11" type="submit">отправить</button>
+				<button tabindex="12" type="reset">очистить</button>
+			</div>
+		</form>
+	</body>
+</html>
